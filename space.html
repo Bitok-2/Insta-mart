@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chatspace</title>
+    <style>
+        #chat{
+            display: flex;
+            background-color: blueviolet;
+        }
+        #space{
+            margin-left: 40px;
+            legend{
+                font-size: 40px;
+                color: white;
+            }
+            padding-left: 40px;
+
+
+            background-color: aqua;
+        }
+        #cont{
+
+            background-color: azure;
+
+        }
+        body{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <h1>CHATSPACE</h1>
+<div id="chat">
+    <div id="space">
+        <form action="">
+            <legend>Let's Chat</legend>
+            <br>
+            <p>Whether you have a question,want to start a project or simply want to connect.</p>
+            <br>
+            <p>Feel free to send me a message in the contact form</p>
+        </form>
+    </div>
+    <div id="cont">
+        <form action="">
+            <legend>Contact</legend>
+            <br>
+            <p>*Required</p>
+            
+            <input type="text" placeholder="Name" required="required">
+            <br><br>
+            <input type="email" placeholder="Email" required="required">
+            <br><br>
+            <input type="text" placeholder="Company" required="required">
+            <br><br>
+            <input type="tel" placeholder="Phone" required="required">
+            <br><br>
+            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
